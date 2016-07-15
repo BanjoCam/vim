@@ -33,9 +33,9 @@ Plugin 'NLKNguyen/papercolor-theme'
 
 Plugin 'summerfruit.vim'
 
-" Markdown stuff
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+" Markdown stuff - commented out for now because I think it was messing things up...
+"Plugin 'godlygeek/tabular'
+"Plugin 'plasticboy/vim-markdown'
 
 " AIRLINE!
 Plugin 'vim-airline/vim-airline'
@@ -127,3 +127,5 @@ let g:ctrlp_working_path_mode = 'w'
 " Allows you to save and resume working sessions!
 map <F2> :mksession! ~/.vim_session <cr> " Quick write session with F2
 map <F3> :source ~/.vim_session <cr>     " And load session with F3
+
+map <C-Tab> :bnext <cr> " Cycle through the buffers with control-tab
