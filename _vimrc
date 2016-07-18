@@ -12,6 +12,53 @@ filetype plugin indent on
 set tabstop=4 shiftwidth=4 expandtab softtabstop=4
 set backspace=indent,eol,start
 
+" some security thing
+set modelines=0
+" useful lines from 'coming home to vim' blog
+set encoding=utf-8
+set scrolloff=3
+set autoindent
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set laststatus=2
+set relativenumber " gives relative line numbers from the current line!
+set undofile " saves an external undo file for permanent undo history
+
+" search improvments
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+" line wrapping shit
+set wrap
+set textwidth=79
+set colorcolumn=85
+
+
+" remap F1 to ESCAPE so you don't accidentally open HELP
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+" remap semicolon to colon so you can call commands without pushing shift
+nnoremap ; :
+
+" save all files when you take focus away from vim
+au FocusLost * :wa
 
 " enable syntax highlighting
 syntax on
@@ -85,3 +132,5 @@ map <F3> :source ~/.vim_session <cr>     " And load session with F3
 
 map <C-Tab> :bnext <cr> " Cycle through the buffers with control-tab
 
+" press ,W to strip all trailing whitespace
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
