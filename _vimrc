@@ -1,66 +1,10 @@
 " Cameron's VIMRC File!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" apparently this is required for improved mode
-set nocompatible
+source $HOME/bundles.vim
 
 " change default font
 set guifont=Consolas:h11
-
-
-filetype off	" just do this for the vundle installer.
-
-" BEGIN VUNDLE SECTION
-
-" set the runtime path to include Vundle and initialize
-set rtp+=$HOME/vimfiles/bundle/Vundle.vim/
-call vundle#begin('$USERPROFILE/vimfiles/bundle/')
-
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" Visual indentation indicators
-Plugin 'Yggdroot/indentLine'
-
-" Simplest rainbow brackets plugin I found
-Plugin 'junegunn/rainbow_parentheses.vim'
-
-" Nice light background colour scheme
-Plugin 'NLKNguyen/papercolor-theme'
-
-Plugin 'summerfruit.vim'
-
-" Markdown stuff - commented out for now because I think it was messing things up...
-"Plugin 'godlygeek/tabular'
-"Plugin 'plasticboy/vim-markdown'
-
-" AIRLINE!
-Plugin 'vim-airline/vim-airline'
-
-" Fuzzy file searching
-Plugin 'ctrlpvim/ctrlp.vim'
-
-" Surround with plugin
-Plugin 'tpope/vim-surround'
-
-" Nerd-commenter to make things commented!
-Plugin 'scrooloose/nerdcommenter'
-
-" Nerdtree for viewing the file structure
-Plugin 'scrooloose/nerdtree'
-
-" Apparently the best GIT plugin
-Plugin 'tpope/vim-fugitive'
-
-" Plaintasks like sublime
-Plugin 'elentok/plaintasks.vim'
-
-call vundle#end()            " required
-
-" END VUNDLE SECTION
 
 " fix indenting; use spaces instead of tabs, auto-indent for detected
 " filetypes, etc
@@ -112,6 +56,17 @@ set background=light
 " show line numbers
 set number
 
+" make sure splits appear to the right
+set splitright
+"split navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Enable folding with the spacebar
+nnoremap <space> za
+
 " Show NERDTree on vim load
 map <Leader>nt :NERDTreeToggle<CR>
 
@@ -129,3 +84,4 @@ map <F2> :mksession! ~/.vim_session <cr> " Quick write session with F2
 map <F3> :source ~/.vim_session <cr>     " And load session with F3
 
 map <C-Tab> :bnext <cr> " Cycle through the buffers with control-tab
+
