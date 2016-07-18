@@ -56,6 +56,18 @@ Plugin 'tpope/vim-fugitive'
 " Plaintasks like sublime
 Plugin 'elentok/plaintasks.vim'
 
+" Repeat surrounds with .
+Plugin 'tpope/vim-repeat'
+
+" autocomplete suggestion stuff!
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Shougo/neocomplete.vim'
+" Track the engine.
+"Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+"Plugin 'honza/vim-snippets'
+
 call vundle#end()            " required
 
 " END VUNDLE SECTION

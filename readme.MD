@@ -4,4 +4,5 @@
 - then, copy the _vimrc to your home folder
     - ALSO: copy the bundles.vim to your home folder!
 - run :InstallPlugins
+- compile YouCompleteMe as per instructions [here](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation) 
 - reboot, good to go!

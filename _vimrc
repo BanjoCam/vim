@@ -134,3 +134,9 @@ map <C-Tab> :bnext <cr> " Cycle through the buffers with control-tab
 
 " press ,W to strip all trailing whitespace
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" awesome shortcut to instantly open _vimrc in a vertical split
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
+
+" open a vertical split and switch to it
+nnoremap <leader>w <C-w>v<C-w>l
