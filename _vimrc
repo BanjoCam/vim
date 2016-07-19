@@ -112,6 +112,9 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+" closes all buffers out
+nnoremap <Leader>bc :bufdo bd<CR>
+
 " nerd tree leader commands 
 map <Leader>nt :NERDTreeToggle<CR>
 map <Leader>ncd :NERDTreeCWD<CR>
