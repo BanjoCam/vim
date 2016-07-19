@@ -10,10 +10,6 @@ https://bitbucket.org/Alexander-Shukaev/vim-for-windows )
     - ALSO: copy the bundles.vim to your home folder!
 - run :InstallPlugins
 - compile YouCompleteMe as per instructions [here](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation) 
+- NEVERMIND, I don't USE youcompleteme. GOSH.
 - reboot, good to go!
-
-another thing!!
-
-
-
 
