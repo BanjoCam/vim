@@ -29,3 +29,4 @@ note, I remapped p to automatically push `] so we jump automatically
 #### Helpful autocomplete tips ####
 [useful stackoverflow answer](http://superuser.com/questions/343443/are-there-any-autocompletion-plugins-for-vim)
 
+this is a test of git-gutter
