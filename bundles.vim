@@ -2,7 +2,6 @@
 " a separate file to contain listings for all the vundle plugins!
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-
 " apparently this is required for improved mode
 set nocompatible
 
@@ -62,11 +61,18 @@ Plugin 'tpope/vim-repeat'
 " autocomplete suggestion stuff!
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'Shougo/neocomplete.vim'
+"Plugin 'ervandew/supertab'
+Plugin 'AutoComplPop'
+
 " Track the engine.
-"Plugin 'SirVer/ultisnips'
+Plugin 'SirVer/ultisnips'
 
 " Snippets are separated from the engine. Add this if you want them:
-"Plugin 'honza/vim-snippets'
+Plugin 'honza/vim-snippets'
+
+" auto completion on brackets
+Plugin 'jiangmiao/auto-pairs'
+
 
 call vundle#end()            " required
 

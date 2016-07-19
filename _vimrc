@@ -111,9 +111,6 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Enable folding with the spacebar
-nnoremap <space> za
-
 " Show NERDTree on vim load
 map <Leader>nt :NERDTreeToggle<CR>
 
@@ -140,3 +137,20 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 
 " open a vertical split and switch to it
 nnoremap <leader>w <C-w>v<C-w>l
+
+" automatically jump to end of pasted text
+nnoremap p p`]
+
+" enable omni completion
+set omnifunc=syntaxcomplete#Complete
+" make a bold popup menu
+highlight Pmenu gui=bold
+" Set ultisnips triggers
+let g:UltiSnipsExpandTrigger="<tab>"                                            
+let g:UltiSnipsJumpForwardTrigger="<tab>"                                       
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"  
+" fix MD files to be recognized as markdown
+autocmd BufNewFile,BufRead *.md set filetype=markdown
+
+" maximize on opening
+au GUIEnter * simalt ~x
