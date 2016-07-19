@@ -11,3 +11,9 @@ https://bitbucket.org/Alexander-Shukaev/vim-for-windows )
 - run :InstallPlugins
 - compile YouCompleteMe as per instructions [here](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation) 
 - reboot, good to go!
+
+another gitgutter test!
+another!
+
+
+
