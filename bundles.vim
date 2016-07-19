@@ -72,6 +72,9 @@ Plugin 'honza/vim-snippets'
 " auto completion on brackets
 Plugin 'jiangmiao/auto-pairs'
 
+" git changes near the line numbers
+Plugin 'airblade/vim-gitgutter'
+
 
 call vundle#end()            " required
 

@@ -112,8 +112,9 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Show NERDTree on vim load
+" nerd tree leader commands 
 map <Leader>nt :NERDTreeToggle<CR>
+map <Leader>ncd :NERDTreeCWD<CR>
 
 " Show AIRLINE tabs at the top for each buffer
 let g:airline#extensions#tabline#enabled = 1
