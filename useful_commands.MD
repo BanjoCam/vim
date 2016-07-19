@@ -15,9 +15,6 @@
 #### replace all:
 `:%s/find/replace`
 
-#### clear out a search
-`,SPACE` (defined in vimrc custom keys)
-
 #### strip trailing whitespace
 (defined in vimrc)
 {% codeblock %}
@@ -27,8 +24,8 @@
 
 #### jump to end of pasted content
 When you paste text, you have marks [ and ] set to the beginning and end of pasted text. Therefore you can use `[ and `] to move the cursor to begin/end of pasted content.
+note, I remapped p to automatically push `] so we jump automatically
 
 #### Helpful autocomplete tips ####
 [useful stackoverflow answer](http://superuser.com/questions/343443/are-there-any-autocompletion-plugins-for-vim)
-
 

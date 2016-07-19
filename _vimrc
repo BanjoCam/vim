@@ -40,9 +40,10 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
-nnoremap <leader><space> :noh<cr>
 nnoremap <tab> %
 vnoremap <tab> %
+"This unsets the "last search pattern" register by hitting return
+nnoremap <CR> :noh<CR><CR>
 
 " line wrapping shit
 set wrap
@@ -96,8 +97,8 @@ call rainbow_parentheses#activate()
 set renderoptions=type:directx,gamma:1.0,contrast:0.2,level:1.0,geom:1,renmode:5,taamode:1
 
 " change color scheme
-let g:airline_theme='PaperColor'
-colorscheme PaperColor
+let g:airline_theme='solarized'
+colorscheme solarized
 set background=light
 
 " show line numbers
@@ -127,7 +128,7 @@ let g:ctrlp_working_path_mode = 'w'
 map <F2> :mksession! ~/.vim_session <cr> " Quick write session with F2
 map <F3> :source ~/.vim_session <cr>     " And load session with F3
 
-map <C-Tab> :bnext <cr> " Cycle through the buffers with control-tab
+nnoremap <C-Tab> :bnext <cr> " Cycle through the buffers with control-tab
 
 " press ,W to strip all trailing whitespace
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
@@ -149,8 +150,18 @@ highlight Pmenu gui=bold
 let g:UltiSnipsExpandTrigger="<tab>"                                            
 let g:UltiSnipsJumpForwardTrigger="<tab>"                                       
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"  
+
 " fix MD files to be recognized as markdown
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 
 " maximize on opening
 au GUIEnter * simalt ~x
+
+" supertab customization
+let g:SuperTabDefaultCompletionType="context"
+let g:SuperTabClosePreviewOnPopupClose=1
+
+" folding stuff
+set nofoldenable " don't start with everything folded!
+set foldmethod=indent
+nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR> "space toggles folds

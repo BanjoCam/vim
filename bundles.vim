@@ -29,6 +29,7 @@ Plugin 'junegunn/rainbow_parentheses.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 
 Plugin 'summerfruit.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " Markdown stuff - commented out for now because I think it was messing things up...
 "Plugin 'godlygeek/tabular'
@@ -36,6 +37,7 @@ Plugin 'summerfruit.vim'
 
 " AIRLINE!
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Fuzzy file searching
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -59,11 +61,8 @@ Plugin 'elentok/plaintasks.vim'
 Plugin 'tpope/vim-repeat'
 
 " autocomplete suggestion stuff!
-"Plugin 'Valloric/YouCompleteMe'
-"Plugin 'Shougo/neocomplete.vim'
-"Plugin 'ervandew/supertab'
-Plugin 'AutoComplPop'
-
+"Plugin 'ajh17/VimCompletesMe'
+Plugin 'ervandew/supertab'
 " Track the engine.
 Plugin 'SirVer/ultisnips'
 
