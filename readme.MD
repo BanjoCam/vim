@@ -12,4 +12,3 @@ https://bitbucket.org/Alexander-Shukaev/vim-for-windows )
 - compile YouCompleteMe as per instructions [here](https://github.com/Valloric/YouCompleteMe#mac-os-x-super-quick-installation) 
 - NEVERMIND, I don't USE youcompleteme. GOSH.
 - reboot, good to go!
-

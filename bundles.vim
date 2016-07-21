@@ -74,7 +74,9 @@ Plugin 'jiangmiao/auto-pairs'
 
 " git changes near the line numbers
 Plugin 'airblade/vim-gitgutter'
-
+" two plugins to run gitgutter in the background. Also gives fullscreen!
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-shell'
 
 call vundle#end()            " required
 
