@@ -78,9 +78,6 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-shell'
 
-" markdown preview in browser
-Plugin 'suan/vim-instant-markdown'
-
 call vundle#end()            " required
 
 " END VUNDLE SECTION
