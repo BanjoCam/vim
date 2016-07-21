@@ -1,3 +1,4 @@
 copyvim.bat
 *.swp
 *.session
+*.un*

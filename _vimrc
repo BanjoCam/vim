@@ -31,6 +31,9 @@ set laststatus=2
 set relativenumber " gives relative line numbers from the current line!
 set undofile " saves an external undo file for permanent undo history
 
+" disable the flashing error thing
+set t_vb=
+
 " search improvments
 nnoremap / /\v
 vnoremap / /\v
