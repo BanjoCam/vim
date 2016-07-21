@@ -171,8 +171,9 @@ set foldmethod=indent
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR> "space toggles folds
 
 " disable the flashing error thing
-set t_vb=
+autocmd GUIEnter * set vb t_vb= " for your GUI
+autocmd VimEnter * set vb t_vb=
 
-"Open chrome for markdown preview
+" Open chrome for markdown preview
 
-autocmd BufEnter *.md exe 'noremap <F5> :!start chrome.exe %:p<CR>'
+autocmd BufEnter *.md exe 'noremap <F5> :silent !$HOME\AppData\Local\Google\Chrome\Application\chrome.exe %:p<CR>'
