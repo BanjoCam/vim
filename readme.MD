@@ -9,5 +9,4 @@ https://bitbucket.org/Alexander-Shukaev/vim-for-windows )
 - then, copy the _vimrc to your home folder
     - ALSO: copy the bundles.vim to your home folder!
 - run :InstallPlugins
--   run npm -g install instant-markdown-d to get the live markdown previewer
-- reboot, good to go!
+- add Chrome to your PATH if you want markdown preview 

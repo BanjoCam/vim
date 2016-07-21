@@ -169,3 +169,10 @@ let g:SuperTabClosePreviewOnPopupClose=1
 set nofoldenable " don't start with everything folded!
 set foldmethod=indent
 nnoremap <silent> <Space> @=(foldlevel('.')?'za':"\<Space>")<CR> "space toggles folds
+
+" disable the flashing error thing
+set t_vb=
+
+"Open chrome for markdown preview
+
+autocmd BufEnter *.md exe 'noremap <F5> :!start chrome.exe %:p<CR>'

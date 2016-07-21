@@ -78,7 +78,11 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-shell'
 
+" open in browser
+Plugin 'tyru/open-browser.vim'
+
 call vundle#end()            " required
+
 
 " END VUNDLE SECTION
 
