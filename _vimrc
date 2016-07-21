@@ -176,4 +176,4 @@ autocmd VimEnter * set vb t_vb=
 
 " Open chrome for markdown preview
 
-autocmd BufEnter *.md exe 'noremap <F5> :silent !$HOME\AppData\Local\Google\Chrome\Application\chrome.exe %:p<CR>'
+autocmd BufEnter *.md exe 'noremap <F5> :silent !start chrome.exe %<CR>'
