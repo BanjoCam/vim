@@ -78,6 +78,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-shell'
 
+Plugin 'vim-scripts/Lucius'
+
 " open in browser
 Plugin 'tyru/open-browser.vim'
 

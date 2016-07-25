@@ -97,9 +97,8 @@ call rainbow_parentheses#activate()
 set renderoptions=type:directx,gamma:1.0,contrast:0.2,level:1.0,geom:1,renmode:5,taamode:1
 
 " change color scheme
-let g:airline_theme='solarized'
-colorscheme solarized
-set background=light
+let g:airline_theme='wombat'
+colorscheme Lucius
 
 " show line numbers
 set number
@@ -177,3 +176,6 @@ autocmd VimEnter * set vb t_vb=
 " Open chrome for markdown preview
 
 autocmd BufEnter *.md exe 'noremap <F5> :silent !start chrome.exe %<CR>'
+
+" Run python file in python (and save automatically)
+autocmd BufEnter *.py exe 'noremap <F5> :w<CR>:!python %<CR>'
