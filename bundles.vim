@@ -83,6 +83,9 @@ Plugin 'vim-scripts/Lucius'
 " open in browser
 Plugin 'tyru/open-browser.vim'
 
+" manage your jekyll posts
+Plugin 'parkr/vim-jekyll'
+
 call vundle#end()            " required
 
 

@@ -179,3 +179,14 @@ autocmd BufEnter *.md exe 'noremap <F5> :silent !start chrome.exe %<CR>'
 
 " Run python file in python (and save automatically)
 autocmd BufEnter *.py exe 'noremap <F5> :w<CR>:!python %<CR>'
+
+" Configure Jekyll plugin
+let g:jekyll_post_dirs = ['_drafts']
+let g:jekyll_post_extension = '.MD'
+let g:jekyll_post_template =  [
+  \ '---',
+  \ 'layout: single',
+  \ 'title: "JEKYLL_TITLE"',
+  \ 'date: "JEKYLL_DATE"',
+  \ '---',
+  \ '']
