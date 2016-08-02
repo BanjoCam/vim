@@ -20,20 +20,22 @@ call vundle#begin('$USERPROFILE/vimfiles/bundle/')
 Plugin 'VundleVim/Vundle.vim'
 
 " Visual indentation indicators
-Plugin 'Yggdroot/indentLine'
+" DISABLED BECAUSE IT NOTICABLY SLOWS THINGS DOWN!
+"Plugin 'Yggdroot/indentLine'
 
 " Simplest rainbow brackets plugin I found
 Plugin 'junegunn/rainbow_parentheses.vim'
 
 " Nice light background colour scheme
 Plugin 'NLKNguyen/papercolor-theme'
-
+Plugin 'tpope/vim-vividchalk'
+Plugin 'vim-scripts/Lucius'
 Plugin 'summerfruit.vim'
 Plugin 'altercation/vim-colors-solarized'
 
 " Markdown stuff - commented out for now because I think it was messing things up...
 "Plugin 'godlygeek/tabular'
-"Plugin 'plasticboy/vim-markdown'
+Plugin 'plasticboy/vim-markdown'
 
 " AIRLINE!
 Plugin 'vim-airline/vim-airline'
@@ -78,13 +80,16 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-shell'
 
-Plugin 'vim-scripts/Lucius'
 
 " open in browser
 Plugin 'tyru/open-browser.vim'
 
 " manage your jekyll posts
 Plugin 'parkr/vim-jekyll'
+
+" run a command line inside of vim!
+"Plugin 'lrvick/Conque-Shell'
+Plugin 'vim-scripts/Conque-GDB'
 
 call vundle#end()            " required
 

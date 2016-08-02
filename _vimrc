@@ -154,6 +154,9 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"                                       
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"  
 
+" ctrlP ignore jekyll build folder
+let g:ctrlp_custom_ignore = '_site'
+
 " fix MD files to be recognized as markdown
 autocmd BufNewFile,BufRead *.md set filetype=markdown
 
@@ -182,11 +185,11 @@ autocmd BufEnter *.py exe 'noremap <F5> :w<CR>:!python %<CR>'
 
 " Configure Jekyll plugin
 let g:jekyll_post_dirs = ['_drafts']
-let g:jekyll_post_extension = '.MD'
+let g:jekyll_post_extension = '.md'
 let g:jekyll_post_template =  [
   \ '---',
-  \ 'layout: single',
   \ 'title: "JEKYLL_TITLE"',
-  \ 'date: "JEKYLL_DATE"',
   \ '---',
   \ '']
+
+let g:
