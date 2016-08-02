@@ -192,4 +192,4 @@ let g:jekyll_post_template =  [
   \ '---',
   \ '']
 
-let g:
+let g:ConqueTerm_ReadUnfocused = 1
