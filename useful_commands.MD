@@ -29,5 +29,10 @@ note, I remapped p to automatically push `] so we jump automatically
 #### Helpful autocomplete tips ####
 [useful stackoverflow answer](http://superuser.com/questions/343443/are-there-any-autocompletion-plugins-for-vim)
 
-this is a test of git-gutter
-will gitgutter work?
+#### replace all instances of currently highlited text ####
+[Useful reddit post](https://www.reddit.com/r/vim/comments/19sm9v/replace_all_instances_of_currently_highlighted/)
+
+#### Search inside entire folder ####
+- using the magic of grep!
+`:grep -F -r thing_to_search *.xyz`
+
