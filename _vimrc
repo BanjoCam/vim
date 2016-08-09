@@ -98,8 +98,8 @@ call rainbow_parentheses#activate()
 set renderoptions=type:directx,gamma:1.0,contrast:0.2,level:1.0,geom:1,renmode:5,taamode:1
 
 " change color scheme
-let g:airline_theme='jellybeans'
-colorscheme jellybeans
+let g:airline_theme='gruvbox'
+colorscheme gruvbox
 
 " show line numbers
 set number
@@ -213,3 +213,4 @@ endfunction
 nnoremap <F9> :call JumpToCSS()<CR>
 " fix the grep for windows use
 set grepprg=grep\ -nH
+autocmd VimEnter * hi Normal ctermbg=none

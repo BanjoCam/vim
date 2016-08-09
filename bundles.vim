@@ -93,6 +93,10 @@ Plugin 'parkr/vim-jekyll'
 "Plugin 'lrvick/Conque-Shell'
 Plugin 'vim-scripts/Conque-GDB'
 
+" try to enable transparent vim background
+Plugin 'mattn/vimtweak'
+Plugin 'mattn/transparency-windows-vim'
+
 call vundle#end()            " required
 
 
