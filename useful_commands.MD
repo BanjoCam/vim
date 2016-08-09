@@ -21,6 +21,10 @@
 ,W
 {% endcodeblock %}
 
+#### format document based on syntax ####
+`gg=G`
+[Run indent from the command line outside vim!](http://unix.stackexchange.com/questions/14107/is-it-possible-to-execute-a-vim-script-in-a-non-interactive-mode)
+
 
 #### jump to end of pasted content
 When you paste text, you have marks [ and ] set to the beginning and end of pasted text. Therefore you can use `[ and `] to move the cursor to begin/end of pasted content.

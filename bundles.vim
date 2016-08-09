@@ -26,7 +26,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Simplest rainbow brackets plugin I found
 Plugin 'junegunn/rainbow_parentheses.vim'
 
-" Nice light background colour scheme
+Plugin 'sickill/vim-monokai'
 Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'vim-scripts/Lucius'
