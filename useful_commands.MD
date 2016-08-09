@@ -31,6 +31,7 @@ note, I remapped p to automatically push `] so we jump automatically
 
 #### replace all instances of currently highlited text ####
 [Useful reddit post](https://www.reddit.com/r/vim/comments/19sm9v/replace_all_instances_of_currently_highlighted/)
+[Useful SO post](http://stackoverflow.com/questions/5541253/in-vim-replace-all-occurrences-of-current-term-under-cursor)
 
 #### Search inside entire folder ####
 - using the magic of grep!
