@@ -33,6 +33,7 @@ Plugin 'vim-scripts/Lucius'
 Plugin 'summerfruit.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'nanotech/jellybeans.vim'
+Plugin 'morhetz/gruvbox'
 
 " Markdown stuff - commented out for now because I think it was messing things up...
 "Plugin 'godlygeek/tabular'

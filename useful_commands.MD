@@ -52,6 +52,8 @@ note, I remapped p to automatically push `] so we jump automatically
 - @g : run the macro
 - @@ : keep repeating the macro
 
-
-
-
+#### Also some git stuff ####
+switch git to use vim as its diff tool (can also try gvimdiff)
+git config diff.tool vimdiff
+git config difftool.prompt false
+then type `git difftool` instead of `git diff` to get it to open in vim!
