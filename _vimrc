@@ -72,7 +72,8 @@ augroup END " }
 
 " set all copy-paste buffer to just use the windows clipboard. less
 " confusing... maybe I'll want to turn it off someday? doubt it
-set clipboard=unnamed
+" I turned it off!!!
+"set clipboard=unnamed
 
 " disable auto insertion of comment line precursor when you push enter
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

@@ -36,3 +36,21 @@ note, I remapped p to automatically push `] so we jump automatically
 - using the magic of grep!
 `:grep -F -r thing_to_search *.xyz`
 
+#### Copy paste ####
+[Useful copy-paste register link](http://stackoverflow.com/questions/1497958/how-do-i-use-vim-registers)
+[General vim useful commands](http://yannesposito.com/Scratch/en/blog/Learn-Vim-Progressively/)
+[You don't need multiple cursors!](https://medium.com/@schtoeffel/you-don-t-need-more-than-one-cursor-in-vim-2c44117d51db#.7dvc7df8m)
+`:reg` shows a list of registers
+`"0` only grabs stuff from y (yank) command, whereas "" is the default register
+"*p or "+p is paste from actual computer clipboard
+
+#### Macros! ####
+[Macro overview. Awesome!](http://vim.wikia.com/wiki/Macros)
+- start recording: qg (where g is the name of register)
+- stop: q again
+- @g : run the macro
+- @@ : keep repeating the macro
+
+
+
+
