@@ -9,4 +9,5 @@ https://bitbucket.org/Alexander-Shukaev/vim-for-windows )
 - then, copy the _vimrc to your home folder
     - ALSO: copy the bundles.vim to your home folder!
 - run :InstallPlugins
+- create the $HOME/.vim/swapfiles and $HOME/.vim/undo folders please
 - add Chrome to your PATH if you want markdown preview 

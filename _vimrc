@@ -30,6 +30,9 @@ set ruler
 set laststatus=2
 set relativenumber " gives relative line numbers from the current line!
 set undofile " saves an external undo file for permanent undo history
+set undodir=$HOME/.vim/undo// "puts the undo file in a central folder
+" move backup and undo files to a central folder
+:set directory=$HOME/.vim/swapfiles//
 
 " search improvments
 nnoremap / /\v
@@ -220,3 +223,4 @@ set grepprg=grep\ -nH
 " vim-markdown options
 let g:vim_markdown_frontmatter = 1
 let g:vim_markdown_new_list_item_indent = 0
+
