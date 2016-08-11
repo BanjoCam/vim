@@ -213,4 +213,10 @@ endfunction
 nnoremap <F9> :call JumpToCSS()<CR>
 " fix the grep for windows use
 set grepprg=grep\ -nH
-autocmd VimEnter * hi Normal ctermbg=none
+
+" can't remember why I put this line below, maybe for transparency? leave it
+"autocmd VimEnter * hi Normal ctermbg=none
+
+" vim-markdown options
+let g:vim_markdown_frontmatter = 1
+let g:vim_markdown_new_list_item_indent = 0

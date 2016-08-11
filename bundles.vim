@@ -36,7 +36,7 @@ Plugin 'nanotech/jellybeans.vim'
 Plugin 'morhetz/gruvbox'
 
 " Markdown stuff - commented out for now because I think it was messing things up...
-"Plugin 'godlygeek/tabular'
+Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 
 " AIRLINE!
