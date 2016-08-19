@@ -94,10 +94,14 @@ Plugin 'parkr/vim-jekyll'
 Plugin 'vim-scripts/Conque-GDB'
 
 " try to enable transparent vim background
-Plugin 'mattn/vimtweak'
-Plugin 'mattn/transparency-windows-vim'
+"Plugin 'mattn/vimtweak'
+"Plugin 'mattn/transparency-windows-vim'
+
+" incrementing columns of numbers
+Plugin 'vim-scripts/VisIncr'
 
 call vundle#end()            " required
+
 
 
 " END VUNDLE SECTION

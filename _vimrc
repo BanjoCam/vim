@@ -4,7 +4,7 @@
 source $HOME/bundles.vim
 
 " change default font
-set guifont=Consolas:h11
+set guifont=Powerline\ Consolas:h11
 
 " fix indenting; use spaces instead of tabs, auto-indent for detected
 " filetypes, etc
@@ -102,6 +102,7 @@ set renderoptions=type:directx,gamma:1.0,contrast:0.2,level:1.0,geom:1,renmode:5
 
 " change color scheme
 let g:airline_theme='gruvbox'
+let g:airline_powerline_fonts = 1
 colorscheme gruvbox
 
 " show line numbers
