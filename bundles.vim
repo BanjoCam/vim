@@ -100,6 +100,11 @@ Plugin 'vim-scripts/Conque-GDB'
 " incrementing columns of numbers
 Plugin 'vim-scripts/VisIncr'
 
+" improved vim javascript?
+Plugin 'pangloss/vim-javascript'
+" Vue highlighting
+Plugin 'posva/vim-vue'
+
 call vundle#end()            " required
 
 
