@@ -90,7 +90,7 @@ Plugin 'tyru/open-browser.vim'
 Plugin 'parkr/vim-jekyll'
 
 " run a command line inside of vim!
-"Plugin 'lrvick/Conque-Shell'
+Plugin 'lrvick/Conque-Shell'
 Plugin 'vim-scripts/Conque-GDB'
 
 " try to enable transparent vim background
@@ -104,6 +104,13 @@ Plugin 'vim-scripts/VisIncr'
 Plugin 'pangloss/vim-javascript'
 " Vue highlighting
 Plugin 'posva/vim-vue'
+
+" C-Sharp stuff
+Plugin 'OmniSharp/omnisharp-vim'
+" allows omnisharp engine to be loaded automatically
+Plugin 'tpope/vim-dispatch'
+" allows display of code errors (not just for c#)
+Plugin 'scrooloose/syntastic'
 
 call vundle#end()            " required
 
